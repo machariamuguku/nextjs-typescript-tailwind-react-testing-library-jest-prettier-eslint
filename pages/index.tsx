@@ -19,7 +19,9 @@ export const Home = (): JSX.Element => (
 
       <button
         onClick={() => {
-          window.alert('With typescript and Jest')
+          window.alert(
+            'With Typescript, Tailwind CSS, React Testing Library, and Jest'
+          )
         }}
       >
         Test Button
